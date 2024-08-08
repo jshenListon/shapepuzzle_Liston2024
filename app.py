@@ -9,7 +9,6 @@ from canvas import *
 from streamlit_ace import st_ace
 import extra_streamlit_components as stx
 from streamlit_image_select import image_select
-from sewar.full_ref import uqi
 import numpy as np
 # from sqlite3 import Connection
 import datetime
@@ -101,8 +100,4 @@ with o2:
     st.image(img, caption='')
     st.session_state['imo'] = np.array(img)
 
-#### Measuring Similarity
-sim = round(uqi(st.session_state['imt'],st.session_state['imo']),4)
-
-st.write(f"Similarity Score: {sim}")
 
