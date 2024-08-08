@@ -1,12 +1,6 @@
 streamlit
-openai==0.27.5
 python-dotenv==1.0.0
-pandas
-matplotlib
 Pillow
 streamlit-ace==0.1.1
 extra-streamlit-components==0.1.56
 streamlit-image-select==0.6.0
-sewar==0.4.6
-shapely==2.0.1
-
